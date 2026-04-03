@@ -12,7 +12,7 @@ showTableOfContents: true
 
 整理了fgets、scanf、sscanf等部分输入分析
 
-## 配套资料
+## 配套PDF
 
 {{< pdf src="fgets-scanf-sscanf_and_other_related_input_analysis_sections.pdf" height="1000" >}}
 
