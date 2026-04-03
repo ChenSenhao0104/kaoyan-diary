@@ -25,7 +25,7 @@ tan x 和 cot x 在 π/2 附近的图像变化规律与倒数函数的特性有�
 
 ## 配套 PDF
 
-{{< pdf src="tanx-cotx-graph.pdf" >}}
+{{< pdf src="tanx-cotx-graph.pdf" height="1000" >}}
 
 ## 更新时间
 

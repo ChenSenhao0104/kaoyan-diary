@@ -9,3 +9,69 @@ img.logo {
   object-fit: cover !important;
   object-position: center !important;
 }
+
+/* ===== PDF 展示：兼容旧版 pdf-wrap 和新版 pdf-embed-* ===== */
+
+/* 外层间距 */
+.pdf-wrap,
+.pdf-embed-outer {
+  margin: 1.5rem 0 2rem;
+}
+
+/* 旧版外框 */
+.pdf-wrap,
+/* 新版内框 */
+.pdf-embed-box {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+/* iframe 基础样式 */
+.pdf-wrap iframe,
+.pdf-embed-box iframe {
+  display: block;
+  width: 100%;
+  border: none;
+  background: #fff;
+}
+
+/* 操作区 */
+.pdf-actions {
+  margin-top: 0.8rem;
+  padding: 0.85rem 1rem 1rem;
+  font-size: 0.95rem;
+  border-top: 1px solid #f1f5f9;
+  background: #fff;
+}
+
+/* 链接样式 */
+.pdf-actions a {
+  text-decoration: none;
+}
+
+.pdf-actions a:hover {
+  text-decoration: underline;
+}
+
+/* 大屏时让新版 PDF 区域尽量突破正文窄栏 */
+@media (min-width: 1024px) {
+  .pdf-embed-outer {
+    width: min(1000px, 86vw);
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    transform: none;
+  }
+}
+
+/* 手机端避免过高 */
+@media (max-width: 768px) {
+  .pdf-wrap iframe,
+  .pdf-embed-box iframe {
+    height: 650px !important;
+  }
+}

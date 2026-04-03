@@ -1,13 +1,18 @@
 {{ $pdf := .Page.Resources.GetMatch (.Get "src") }}
+{{ $height := .Get "height" | default "1100" }}
+
 {{ if $pdf }}
-  <div style="margin: 1.5rem 0;">
-    <iframe
-      src="{{ $pdf.RelPermalink }}"
-      width="100%"
-      height="900"
-      style="border: 1px solid #e5e7eb; border-radius: 12px; background: #fff;">
-    </iframe>
-    <p style="margin-top: 0.75rem;">
+  <div class="not-prose pdf-embed-outer">
+    <div class="pdf-embed-box">
+      <iframe
+        src="{{ $pdf.RelPermalink }}#toolbar=1&navpanes=0&zoom=page-width"
+        width="100%"
+        height="{{ $height }}"
+        loading="lazy">
+      </iframe>
+    </div>
+
+    <p class="pdf-actions">
       <a href="{{ $pdf.RelPermalink }}" target="_blank" rel="noopener noreferrer">在新标签页打开 PDF</a>
       &nbsp;|&nbsp;
       <a href="{{ $pdf.RelPermalink }}" download>下载 PDF</a>

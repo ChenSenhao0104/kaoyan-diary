@@ -51,7 +51,7 @@ Lp 度量是分析、线性代数、机器学习和数据科学里都非常常�
 
 ## 配套 PDF
 
-{{< pdf src="lp-metric.pdf" >}}
+{{< pdf src="lp-metric.pdf" height="1000" >}}
 
 ## 更新时间
 
