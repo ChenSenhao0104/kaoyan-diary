@@ -1,0 +1,43 @@
+[[main]]
+  name = "首页"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "考研心得"
+  pageRef = "journal"
+  weight = 20
+
+[[main]]
+  name = "英语一"
+  pageRef = "english"
+  weight = 30
+
+[[main]]
+  name = "数学一"
+  pageRef = "math"
+  weight = 40
+
+[[main]]
+  name = "CS408"
+  pageRef = "cs408"
+  weight = 50
+
+[[main]]
+  name = "政治"
+  pageRef = "politics"
+  weight = 60
+
+[[main]]
+  name = "资源下载"
+  pageRef = "resources"
+  weight = 70
+
+[[main]]
+  name = "关于本站"
+  pageRef = "about"
+  weight = 80
+
+[[footer]]
+  name = "GitHub"
+  url = "https://github.com/ChenSenhao0104/kaoyan-diary"
