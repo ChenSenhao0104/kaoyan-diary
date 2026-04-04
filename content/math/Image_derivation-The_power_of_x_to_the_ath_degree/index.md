@@ -12,7 +12,7 @@ showTableOfContents: true
 
 本文探讨了x^(ax)图像推导，以及a分别=1、2、3时三个函数的图像关系
 
-## 配套 PDF
+## 配套资料
 
 ![Image_derivation-The_power_of_x_to_the_ath_degree](Image_derivation-The_power_of_x_to_the_ath_degree.png)
 
