@@ -15,7 +15,7 @@ showTableOfContents: true
 
 > 本文特别感谢 b 站 up 主 [茶楠学长的题库](https://space.bilibili.com/3546376285718848/?spm_id_from=333.788.upinfo.detail.click) 及 [Fip-错过](https://space.bilibili.com/310931812/?spm_id_from=333.788.upinfo.detail.click) 的视频讲解支持。视频链接分别为：[无穷个无穷小相乘为什么不一定是无穷小？初学者常见的困惑一个视频给你讲懂_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1PhFTzLEQX/?spm_id_from=333.1387.favlist.content.click&vd_source=df954ce6deb0491365521fc750ecd4db) 和 [第一章 无限个无穷小量的乘积还是无穷小量吗？_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1GFYbeVESN/?spm_id_from=333.1387.favlist.content.click&vd_source=df954ce6deb0491365521fc750ecd4db)
 
-本文主要探讨了**“无限个无穷小相乘”的本质与结果**。核心结论是：不能把有限个无穷小相乘的法则直接套用到无限个上。在实数分析中，无限个无穷小相乘必须转化为“无穷乘积”的极限问题。只要因子趋于 0，其无穷乘积的结果必然是 0。
+本文主要探讨了**无限个无穷小相乘的本质与结果**。核心结论是：不能把有限个无穷小相乘的法则直接套用到无限个上。在实数分析中，无限个无穷小相乘必须转化为“无穷乘积”的极限问题。只要因子趋于 0，其无穷乘积的结果必然是 0。
 
 同时，文章特别纠正了一个认知误区：**无穷小是一种“极限过程中的局部性质”，绝不意味着函数在全局范围内“单调”趋向于 0。**（PDF 中附有 b 站 up 主的讲解）
 
